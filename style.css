@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'hannari';
+    src: url(Hannari.otf) format('opentype');
+}
+
 /* reset */
 *{
   margin: 0;
@@ -274,7 +279,7 @@ a{
     background-repeat: no-repeat;
     float: right;
     width: 515px;
-    font-family: "はんなり明朝";
+    font-family: "hannari";
     font-size: 18px;
     color: #fdeff2;
     padding-top: 107px;
@@ -339,7 +344,7 @@ a{
     height: 200px;
     line-height: 35px;
     writing-mode: vertical-rl;
-    font-family: "はんなり明朝";
+    font-family: "hannari";
     font-size: 20px;
     color: #d3e9f4;
     padding: 35px 0px;
@@ -370,7 +375,7 @@ a{
     background-position: 100px 0px;
     background-repeat: no-repeat;
     width: 700px;
-    font-family: "はんなり明朝";
+    font-family: "hannari";
     font-size: 18px;
     color: #d3e9f4;
     padding-top: 105px;
