@@ -1,0 +1,379 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+#loader {
+    width: 165px;
+    height: 25px;
+    display: none;
+    position: fixed;
+    -ms-position: absolute; /* IE6対策 */
+    top: 50%;
+    left: 50%;
+    margin-top: -XXpx; /* heightの半分のマイナス値 */
+    margin-left: -XXXpx; /* widthの半分のマイナス値 */
+    z-index: 100;
+}
+ 
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}
+
+.main{
+    width: 100%;
+    float: left;
+    background-image: url(img/BACK-SORA2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main img{
+    float: left;
+    margin: 0 auto;
+}
+
+.rightbox{
+    width: 50%;
+    height: 3500px;
+    margin: auto;
+    float: left;
+    background-image: url(img/tokyoskytree4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+}
+
+.leftbox{
+    width: 50%;
+    height: 3500px;
+    margin: auto;
+    float: left;
+    background-image: url(img/tokyotower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+}
+
+
+.yoko-left{
+    font-family: "HGｺﾞｼｯｸE";
+    font-size: 100px;
+    color: #ff8383;
+    position: absolute;
+    top: 1225px;
+    left: 270px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.yoko-right{
+    font-family: "HGｺﾞｼｯｸE";
+    font-size: 100px;
+    color: #50c7e2;
+    position: absolute;
+    top: 1225px;
+    right: 220px;
+    
+}
+
+.tate-left{
+    writing-mode: vertical-rl;
+    font-family: "HGS教科書体";
+    font-size: 100px;
+    color: #fff8fa;
+    position: absolute;
+    top: 1065px;
+    left: 165px;
+}
+
+.tate-right{  
+    writing-mode: vertical-rl;
+    font-family: "HGS教科書体","Microsoft JhengHei UI Light";
+    font-size: 83px;
+    font-weight: 600;
+    color: #eef9ff;
+    position: absolute;
+    top: 1045px;
+    right: 135px;
+    
+}
+
+.mati{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+
+.pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+    z-index: 10;
+}
+ 
+.pageTop a {
+  display: block;
+  z-index: 999;
+  border-radius: 30px;
+  padding: 10 0;
+}
+ 
+.pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.pageTop-skytree {
+  text-align: left;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+    
+}
+ 
+.pageTop-skytree a {
+  display: block;
+  z-index: 999;
+  border-radius: 30px;
+  padding: 10 0;
+}
+ 
+.pageTop-skytree a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+#main-img {
+    position: absolute;
+    padding: 100px 0px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(img/cloud3.png);
+    z-index: 2;
+}
+#main-img #bg {
+    height: 350px;
+    background-image: url(img/cloud2.png);
+    z-index: 10;
+}
+
+@keyframes cloudMove {
+    0% {background-position: 0 0, 0 0;}
+    50% {background-position: 40px 0, 80px 0;}
+    100% {background-position: 0 0, 0 0;}
+}
+
+.tokyotower-page{
+    width: 100%;
+    float: left;
+    background-color: #000;
+    background-size: 100%;
+    position: relative;
+}
+.night-tokyotower{
+    width: 490px;
+    height: 2350px;
+    padding-top: 100px;
+    margin: auto;
+    float: left;
+    background-image: url(img/night-tokyotower1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.tokyotower-header{
+    width: 100%;
+    height: 950px;
+    
+}
+
+.tokyotower-page h1{
+    font-family: "HGｺﾞｼｯｸE";
+    font-size: 80px;
+    color: #ff8383; 
+    position: absolute;
+    top: 335px;
+    right: 35%;
+}
+
+.tokyotower-page h2{
+    writing-mode: vertical-rl;
+    font-family: "HGS教科書体";
+    font-size: 108px;
+    font-weight: 100;
+    color: #fdeff2;
+    position: absolute;
+    top: 145px;
+    right: 44%;
+}
+
+.tokyotower-main{
+    width: 855px;
+    margin: 0 auto;
+    float: left;
+   
+}
+
+.tokyotower-main p{
+    height: 200px;
+    line-height: 35px;
+    writing-mode: vertical-rl;
+    font-family: "はんなり明朝";
+    font-size: 20px;
+    color: #fdeff2;
+    padding: 35px 0px;
+}
+
+.tokyotower-main > img{
+    height: 270px;
+    vertical-align: bottom;
+}
+
+.tokyotower-mame-gazou{
+    float: right;
+    padding-top: 100px;
+    width: 200px;
+    
+}
+.tokyotower-mametisiki{
+    float: right;
+    width: 900px;
+    padding-top: 135px;
+    margin-right: 100px;
+}
+
+.tokyotower-mametisiki > img{
+    float: right;
+    width: 115px;
+    height: 375px;
+}
+
+.tokyotower-mametisiki p{
+    background-image: url(img/kurage.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    float: right;
+    width: 515px;
+    font-family: "はんなり明朝";
+    font-size: 18px;
+    color: #fdeff2;
+    padding-top: 107px;
+    line-height: 27px;
+    
+}
+
+.skytree-page{
+    width: 100%;
+    float: left;
+    background-color: #000;
+    background-size: 100%;
+    position: relative;
+}
+
+.night-skytree{
+   width: 385px;
+    height: 2450px;
+    margin: auto;
+    float: right;
+    background-image: url(img/night-skytree.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.skytree-header{
+    width: 100%;
+    height: 1050px;
+    
+}
+
+.skytree-page h1{
+    font-family: "HGｺﾞｼｯｸE";
+    font-size: 80px;
+    color: #7cadc1; 
+    position: absolute;
+    top: 335px;
+    right: 35%;
+}
+
+.skytree-page h2{
+     writing-mode: vertical-rl;
+    font-family: "HGS教科書体";
+    font-size: 95px;
+    font-weight: 100;
+    color: #d3e9f4;
+    position: absolute;
+    top: 85px;
+    right: 50%;
+    
+}
+
+.skytree-main{
+    width: 800px;
+    padding-left: 196px;
+    float: left;
+    position: relative;
+    
+}
+.skytree-main p{
+    height: 200px;
+    line-height: 35px;
+    writing-mode: vertical-rl;
+    font-family: "はんなり明朝";
+    font-size: 20px;
+    color: #d3e9f4;
+    padding: 35px 0px;
+}
+
+.skytree-main img{
+    height: 270px;
+    vertical-align: bottom;
+
+}
+
+.skytree-mametisiki{
+    width: 800px;
+    height: 400px;
+    margin-top: 100px;
+    
+}
+
+.skytree-mametisiki img{
+    float: right;
+    width: 115px;
+    height: 375px;
+}
+
+.skytree-mametisiki p{
+    background-image: url(img/kaminari.png);
+    background-size: 400px;
+    background-position: 100px 0px;
+    background-repeat: no-repeat;
+    width: 700px;
+    font-family: "はんなり明朝";
+    font-size: 18px;
+    color: #d3e9f4;
+    padding-top: 105px;
+    line-height: 27px;
+    
+}
