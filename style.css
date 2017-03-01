@@ -219,7 +219,7 @@ a{
     color: #ff8383; 
     position: absolute;
     top: 335px;
-    right: 35%;
+    right: 400px;
 }
 
 .tokyotower-page h2{
@@ -230,7 +230,7 @@ a{
     color: #fdeff2;
     position: absolute;
     top: 145px;
-    right: 44%;
+    right: 650px;
 }
 
 .tokyotower-main{
@@ -318,8 +318,8 @@ a{
     font-size: 80px;
     color: #7cadc1; 
     position: absolute;
-    top: 335px;
-    right: 35%;
+    top: 350px;
+    left: 300px;
 }
 
 .skytree-page h2{
@@ -330,7 +330,7 @@ a{
     color: #d3e9f4;
     position: absolute;
     top: 85px;
-    right: 50%;
+    left: 600px;
     
 }
 
