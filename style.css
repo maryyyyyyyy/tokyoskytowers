@@ -21,8 +21,8 @@ html, body{
     -ms-position: absolute; /* IE6対策 */
     top: 50%;
     left: 50%;
-    margin-top: -XXpx; /* heightの半分のマイナス値 */
-    margin-left: -XXXpx; /* widthの半分のマイナス値 */
+    margin-top: -12.5px; /* heightの半分のマイナス値 */
+    margin-left: -82.5px; /* widthの半分のマイナス値 */
     z-index: 100;
 }
  
@@ -101,7 +101,8 @@ a{
 
 .tate-left{
     writing-mode: vertical-rl;
-    font-family: "HGS教科書体";
+    font-family: "HGS教科書体", 'YuMin_36pKn-Medium'; 
+    font-weight: normal;
     font-size: 100px;
     color: #fff8fa;
     position: absolute;
