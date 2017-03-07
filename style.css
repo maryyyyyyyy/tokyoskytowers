@@ -1,6 +1,16 @@
 @font-face{
     font-family: 'hannari';
-    src: url(Hannari.otf) format('opentype');
+    src: url(font/Hannari.otf) format('opentype');
+}
+
+@font-face{
+    font-family: 'honoka';
+    src: url(font/honokamin.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'abbey';
+    src: url(font/abbeyroad.otf) format('opentype');
 }
 
 /* reset */
@@ -77,8 +87,8 @@ html, body{
 
 
 .yoko-left{
-    font-family: "HGｺﾞｼｯｸE";
-    font-size: 100px;
+    font-family: 'abbey';
+    font-size: 120px;
     color: #ff8383;
     position: absolute;
     top: 1225px;
@@ -90,8 +100,8 @@ a{
 }
 
 .yoko-right{
-    font-family: "HGｺﾞｼｯｸE";
-    font-size: 100px;
+    font-family: 'abbey';
+    font-size: 120px;
     color: #50c7e2;
     position: absolute;
     top: 1225px;
@@ -101,7 +111,7 @@ a{
 
 .tate-left{
     writing-mode: vertical-rl;
-    font-family: "HGS教科書体", 'YuMin_36pKn-Medium'; 
+    font-family: 'honoka'; 
     font-weight: normal;
     font-size: 100px;
     color: #fff8fa;
@@ -112,7 +122,7 @@ a{
 
 .tate-right{  
     writing-mode: vertical-rl;
-    font-family: "HGS教科書体","Microsoft JhengHei UI Light";
+    font-family: 'honoka';
     font-size: 83px;
     font-weight: 600;
     color: #eef9ff;
@@ -214,17 +224,17 @@ a{
 }
 
 .tokyotower-page h1{
-    font-family: "HGｺﾞｼｯｸE";
-    font-size: 80px;
+    font-family: 'abbey';
+    font-size: 100px;
     color: #ff8383; 
     position: absolute;
-    top: 335px;
-    right: 400px;
+    top: 340px;
+    right: 470px;
 }
 
 .tokyotower-page h2{
     writing-mode: vertical-rl;
-    font-family: "HGS教科書体";
+    font-family: 'honoka';
     font-size: 108px;
     font-weight: 100;
     color: #fdeff2;
@@ -314,17 +324,17 @@ a{
 }
 
 .skytree-page h1{
-    font-family: "HGｺﾞｼｯｸE";
-    font-size: 80px;
+    font-family: 'abbey';
+    font-size: 100px;
     color: #7cadc1; 
     position: absolute;
     top: 350px;
-    left: 300px;
+    left: 400px;
 }
 
 .skytree-page h2{
      writing-mode: vertical-rl;
-    font-family: "HGS教科書体";
+    font-family: 'honoka';
     font-size: 95px;
     font-weight: 100;
     color: #d3e9f4;
