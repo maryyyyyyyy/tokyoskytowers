@@ -49,9 +49,10 @@ html, body{
 
 .main{
     width: 100%;
+    height: auto;
     float: left;
     background-image: url(img/BACK-SORA2.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
